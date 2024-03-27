@@ -1,0 +1,71 @@
+body{
+  font-family:Young Serif,Outfit ;
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  margin: 0;
+}
+p,div{
+  font-family: outfit;
+}
+.container{
+  background-color:hsl(0, 0%, 100%) ;
+  width: 1440px;
+ 
+  border-radius: 20px;
+ padding: 30px 20px 60px 20px;
+}
+
+
+.image-container img{
+  width: 100%;
+}
+.preparation-timing{
+  background-color: rgb(253, 230, 234);
+  padding: 9px 1px 9px 20px;
+  margin: 20px;
+  border-radius: 3px;
+}
+.preparation-timing strong{
+  margin-left: 9px;
+}
+.preparation-timing p{
+  font-size: 16px;
+}
+h5{
+  color: rgb(122, 9, 9);
+  font-size: 17px; 
+}
+
+.dot-span, .number-span{
+  color: rgb(80, 14, 14);
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 9px;
+  
+}
+.header-two,.header-three{
+border-bottom:3px hsl(30, 18%, 87%)solid;
+}
+
+h2,h3,h4{
+  color:hsl(332, 51%, 32%);
+  font-family: young serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+.nutritional-value{
+  display: flex;
+  flex-direction: column;
+}
+.nutritional-value div{
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 3px hsl(30, 18%, 87%)solid;
+  padding: 12px;
+
+}
+  
